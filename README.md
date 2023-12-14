@@ -1,3 +1,19 @@
+# Версія створення react.js project -  за допомогою package manager "yarn"
+
+0. Спочатку нам потрібно завантажити на диск С, Node.js(recomend version). Link: 
+https://nodejs.org/en
+1. Потім на потрібно зайти до Терміналу в VS Сode або (Command Prompt на ПК - рекомендую)
+2. Потім на потрібно провірити на наявність node.js . [ node -v]  - це нам дасть версію нашого node.js
+3. [npm i -g yarn] - заінсталює нам Yarn
+4. В Command Prompt на ПК [cd desktop] - ця команда вказую що перейди до робочого стола
+
+4. Створюємо на проект в бібліотеці React.js, за допомогою цієї команди - [yarn create react-app my-app ]
+5. Вибери свій проект - [cd my-app]
+
+6. Що б запустити наш проект, подрібно вписати  в Command Prompt на ПК -  [ yarn start ]
+7. Спочатку переключіться на свій проект [cd desktop],  [cd my-app ]. Для routing - [yarn add react-router-dom]   
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
