@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   Navigate,
   Outlet,
+  Route,
   RouterProvider,
 } from "react-router-dom";
 
@@ -16,7 +17,7 @@ import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 
 function App() {
-  const currentUser = false;
+  const currentUser = true; //need set false
 
   //My Layout(Maket)
   const Layout = () => {
