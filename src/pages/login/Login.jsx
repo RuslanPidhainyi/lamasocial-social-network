@@ -1,7 +1,8 @@
-//Komponent
-import { Link } from "react-router-dom";
-import "./login.scss";
 
+import { Link } from "react-router-dom";
+import "./login.scss"; //import CSS
+
+//Komponent //fast create component "rafc"
 const Login = () => {
   return (
     <div className="login">

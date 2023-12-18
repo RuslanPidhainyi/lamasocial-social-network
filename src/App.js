@@ -1,5 +1,10 @@
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import Navbar from "./components/navbar/Navbar";
+import LeftBar from "./components/leftBar/LeftBar";
+import RightBar from "./components/rightBar/RightBar";
+import Home from "./pages/home/Home";
+import Profile from "./pages/profile/Profile";
 
 //func and component for routing(./login  && ./register)
 import {
@@ -7,14 +12,10 @@ import {
   Navigate,
   Outlet,
   Route,
-  RouterProvider,
+  RouterProvider,// calle router provider - виклик цього постачальника маршрутизатора 
 } from "react-router-dom";
 
-import Navbar from "./components/navbar/Navbar";
-import LeftBar from "./components/leftBar/LeftBar";
-import RightBar from "./components/rightBar/RightBar";
-import Home from "./pages/home/Home";
-import Profile from "./pages/profile/Profile";
+
 
 function App() {
   const currentUser = true; //need set false
@@ -74,9 +75,10 @@ function App() {
     },
   ]);
 
+  
   return (
     <div>
-      <RouterProvider router={router} />
+      <RouterProvider router={router} /> {/*а всередені тут ми передаємо наш маршрутизатор */} 
     </div>
   );
 }
